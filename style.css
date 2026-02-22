@@ -1,9 +1,11 @@
 :root {
-  /* 3D Soft Palette */
+  /* 3D Soft Palette - Updated to Requested DISC Colors */
   --bg-color: #f0f4f8;
-  --primary: #5c67f2; /* Soft Indigo */
-  --secondary: #ff6b6b; /* Soft Coral */
-  --accent: #4ecdc4; /* Soft Teal */
+  --primary: #ff4d4d; /* D - Red */
+  --secondary: #ffbe0b; /* I - Yellow */
+  --success: #06d6a0; /* S - Green */
+  --info: #118ab2; /* C - Blue */
+  
   --text-main: #2d3436;
   --text-sub: #636e72;
   --white: #ffffff;
@@ -56,13 +58,13 @@ disc-app {
   to { opacity: 1; transform: scale(1); }
 }
 
-/* Typography - Improved Readability */
+/* Typography */
 h1 {
   font-size: 2.2rem;
   font-weight: 800;
   letter-spacing: -0.03em;
   margin-bottom: 0.8rem;
-  color: var(--primary);
+  color: var(--text-main);
   line-height: 1.2;
 }
 
@@ -143,7 +145,7 @@ h1 {
 
 .progress-bar {
   height: 100%;
-  background: linear-gradient(90deg, var(--primary), var(--accent));
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
   border-radius: 10px;
   transition: width 0.4s ease;
 }
@@ -235,7 +237,7 @@ h1 {
 .section-title::before {
   content: "";
   width: 6px; height: 18px;
-  background: var(--secondary);
+  background: #ff4d4d; /* D Color as default accent */
   border-radius: 3px;
 }
 
@@ -247,10 +249,10 @@ h1 {
 }
 
 .tip-box {
-  background: #fff9f9;
+  background: #f8f9fa;
   padding: 16px;
   border-radius: 15px;
-  border-left: 5px solid var(--secondary);
+  border-left: 5px solid var(--primary);
   margin-top: 12px;
   font-size: 0.9rem;
   color: var(--text-main);

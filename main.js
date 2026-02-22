@@ -7,7 +7,7 @@ const DATA = {
     { q: "학교 축제 장기자랑에 우리 반이 나가게 되었다! 나의 포지션은?", options: ["연습 일정을 짜고 애들을 이끄는 '리더'", "무대 정중앙에서 시선을 즐기는 '센터'", "뒤에서 조용히 소품을 챙겨주는 '서포터'", "안무 대형이 맞는지, 음악 타이밍이 맞는지 체크하는 '디렉터'"] },
     { q: "반 단톡방에서 아무도 대답을 안 하는 정적이 흐를 때, 나는?", options: ["다들 확인했으면 빨리 대답 좀 해.", "(웃긴 짤이나 이모티콘을 보내며 분위기를 띄운다)", "(누군가 먼저 말할 때까지 기다렸다가 조심스럽게 동조한다)", "(내가 정확히 아는 정보나 사실일 때만 대답한다)"] },
     { q: "새로 산 옷을 입고 왔는데, 친구가 \"그 옷 좀 별로다\"라고 한다면?", options: ["내 맘이야. 난 예쁘기만 한데 뭐.", "진짜? 이상해? 아씨.. 다른 거 입을걸ㅠㅠ", "그래? 알았어... (겉으론 웃지만 하루 종일 신경 쓰임)", "어떤 부분이 별로라는 건지 구체적으로 말해줄래?"] },
-    { q: "체육대회나 게임을 할 때 나의 승부욕은?", options: ["무조건 이겨야 한다! 지는 건 참을 수 없다.", "이기면 좋고, 져도 재밌게 즐겼으면 그만이다.", "나 때문에 우리 팀이 질까 봐 조마조마하고 미안하다.", "규칙을 어기면서까지 이기고 싶지는 않다. 정정당당이 최고."] },
+    { q: "체육대회나 게임을 할 때 나의 승부욕은?", options: ["무조건 이겨야 한다! 지는 건 참을 수 없다.", "이기면 좋고, 져도 재밌게 즐겼으면 그만이다.", "나 때문에 우리 팀이 질까 봐 조마조마하고 미안하다.", "규칙을 어기면서까지 이기 싶지는 않다. 정정당당이 최고."] },
     { q: "처음 보는 친구와 짝꿍이 되었을 때, 나는?", options: ["먼저 말을 걸고 통성명부터 확실히 한다.", "폭풍 수다를 떨며 10분 만에 베프가 된다.", "어색하게 미소만 짓고 먼저 말 걸어주기를 기다린다.", "어떤 친구인지 파악하기 위해 조용히 관찰한다."] },
     { q: "방과 후 자유시간이 주어졌을 때, 내가 가장 하고 싶은 것은?", options: ["평소에 목표했던 운동이나 자기계발 하기", "친구들과 코인노래방이나 피시방 가서 신나게 놀기", "집에서 넷플릭스 보거나 침대에 누워 편안하게 쉬기", "평소 관심 있던 분야의 책을 읽거나 정보 찾아보기"] },
     { q: "다 같이 배달 음식을 시켜 먹기로 했을 때, 메뉴를 고르는 방식은?", options: ["오늘은 치킨 먹자! 내가 시킬게.", "요즘 엽떡 신메뉴 완전 핫하대! 그거 먹어보자!", "난 다 괜찮아, 너희들 먹고 싶은 걸로 시켜.", "리뷰 별점 5점짜리랑 배달비 제일 싼 곳으로 비교해 볼게."] },
@@ -57,8 +57,8 @@ const CHARACTERS = {
   D: `<svg viewBox="0 0 100 100" class="char-svg">
     <defs>
       <radialGradient id="gradD" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
-        <stop offset="0%" style="stop-color:#8e94f2" />
-        <stop offset="100%" style="stop-color:#5c67f2" />
+        <stop offset="0%" style="stop-color:#ff8585" />
+        <stop offset="100%" style="stop-color:#ff4d4d" />
       </radialGradient>
     </defs>
     <circle cx="50" cy="50" r="45" fill="url(#gradD)"/>
@@ -70,43 +70,41 @@ const CHARACTERS = {
   I: `<svg viewBox="0 0 100 100" class="char-svg">
     <defs>
       <radialGradient id="gradI" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
-        <stop offset="0%" style="stop-color:#ff9e9e" />
-        <stop offset="100%" style="stop-color:#ff6b6b" />
+        <stop offset="0%" style="stop-color:#ffe085" />
+        <stop offset="100%" style="stop-color:#ffbe0b" />
       </radialGradient>
     </defs>
     <circle cx="50" cy="50" r="45" fill="url(#gradI)"/>
     <circle cx="35" cy="45" r="6" fill="white"/>
     <circle cx="65" cy="45" r="6" fill="white"/>
     <path d="M35 70 Q50 85 65 70" fill="white"/>
-    <path d="M45 20 L55 20 L60 10 L40 10 Z" fill="rgba(255,255,255,0.3)"/>
   </svg>`,
   S: `<svg viewBox="0 0 100 100" class="char-svg">
     <defs>
       <radialGradient id="gradS" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
-        <stop offset="0%" style="stop-color:#7df2eb" />
-        <stop offset="100%" style="stop-color:#4ecdc4" />
+        <stop offset="0%" style="stop-color:#85f5d8" />
+        <stop offset="100%" style="stop-color:#06d6a0" />
       </radialGradient>
     </defs>
     <circle cx="50" cy="50" r="45" fill="url(#gradS)"/>
     <circle cx="35" cy="50" r="4" fill="white"/>
     <circle cx="65" cy="50" r="4" fill="white"/>
     <path d="M35 70 Q50 80 65 70" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
-    <path d="M30 30 Q50 15 70 30" stroke="rgba(255,255,255,0.4)" stroke-width="6" fill="none"/>
   </svg>`,
   C: `<svg viewBox="0 0 100 100" class="char-svg">
     <defs>
       <radialGradient id="gradC" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
-        <stop offset="0%" style="stop-color:#f8f9fa" />
-        <stop offset="100%" style="stop-color:#dee2e6" />
+        <stop offset="0%" style="stop-color:#85d8f5" />
+        <stop offset="100%" style="stop-color:#118ab2" />
       </radialGradient>
     </defs>
-    <circle cx="50" cy="50" r="45" fill="url(#gradC)" stroke="#ced4da" stroke-width="2"/>
-    <rect x="25" y="40" width="20" height="15" rx="3" fill="none" stroke="#5c67f2" stroke-width="3"/>
-    <rect x="55" y="40" width="20" height="15" rx="3" fill="none" stroke="#5c67f2" stroke-width="3"/>
-    <line x1="45" y1="47" x2="55" y2="47" stroke="#5c67f2" stroke-width="3"/>
-    <circle cx="35" cy="47" r="2" fill="black"/>
-    <circle cx="65" cy="47" r="2" fill="black"/>
-    <path d="M40 75 L60 75" stroke="#5c67f2" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="50" cy="50" r="45" fill="url(#gradC)"/>
+    <rect x="25" y="40" width="20" height="15" rx="3" fill="none" stroke="white" stroke-width="3"/>
+    <rect x="55" y="40" width="20" height="15" rx="3" fill="none" stroke="white" stroke-width="3"/>
+    <line x1="45" y1="47" x2="55" y2="47" stroke="white" stroke-width="3"/>
+    <circle cx="35" cy="47" r="2" fill="white"/>
+    <circle cx="65" cy="47" r="2" fill="white"/>
+    <path d="M40 75 L60 75" stroke="white" stroke-width="4" stroke-linecap="round"/>
   </svg>`
 };
 
@@ -145,7 +143,19 @@ class DiscApp extends HTMLElement {
   reset() {
     this.currentIndex = 0;
     this.scores = { D: 0, I: 0, S: 0, C: 0 };
+    document.documentElement.style.setProperty('--primary', '#ff4d4d'); // Reset theme
     this.setState('HOME');
+  }
+
+  // Set theme color based on character type
+  setTheme(type) {
+    const colors = {
+      D: '#ff4d4d',
+      I: '#ffbe0b',
+      S: '#06d6a0',
+      C: '#118ab2'
+    };
+    document.documentElement.style.setProperty('--primary', colors[type]);
   }
 
   render() {
@@ -161,10 +171,10 @@ class DiscApp extends HTMLElement {
           </div>
 
           <div class="char-grid">
-            <div class="char-item">${CHARACTERS.D}<span>주도형</span></div>
-            <div class="char-item">${CHARACTERS.I}<span>사교형</span></div>
-            <div class="char-item">${CHARACTERS.S}<span>안정형</span></div>
-            <div class="char-item">${CHARACTERS.C}<span>신중형</span></div>
+            <div class="char-item" style="border-top: 5px solid #ff4d4d">${CHARACTERS.D}<span>주도형</span></div>
+            <div class="char-item" style="border-top: 5px solid #ffbe0b">${CHARACTERS.I}<span>사교형</span></div>
+            <div class="char-item" style="border-top: 5px solid #06d6a0">${CHARACTERS.S}<span>안정형</span></div>
+            <div class="char-item" style="border-top: 5px solid #118ab2">${CHARACTERS.C}<span>신중형</span></div>
           </div>
 
           <button class="btn btn-primary" onclick="this.closest('disc-app').setState('QUIZ')">검사 시작하기</button>
@@ -196,6 +206,7 @@ class DiscApp extends HTMLElement {
     } else if (this.state === 'RESULT') {
       const topType = this.getTopType();
       const result = DATA.results[topType];
+      this.setTheme(topType);
       
       this.innerHTML = `
         <div class="screen result">
@@ -205,16 +216,16 @@ class DiscApp extends HTMLElement {
               <div class="result-title">${result.title}</div>
             </div>
             
-            <div class="result-summary">${result.summary}</div>
+            <div class="result-summary" style="color: var(--primary); border: 2px solid var(--primary);">${result.summary}</div>
             
-            <div class="section-title">나의 진짜 매력 (장점)</div>
+            <div class="section-title"><span style="background: var(--primary); width: 6px; height: 18px; border-radius: 3px; display: inline-block; margin-right: 8px;"></span>나의 진짜 매력 (장점)</div>
             <p class="content-text">${result.charm}</p>
             
-            <div class="section-title">평소 내 대화 스타일</div>
+            <div class="section-title"><span style="background: var(--primary); width: 6px; height: 18px; border-radius: 3px; display: inline-block; margin-right: 8px;"></span>평소 내 대화 스타일</div>
             <p class="content-text">${result.style}</p>
             
-            <div class="section-title">🤝 찰떡 소통 꿀팁</div>
-            <div class="tip-box">${result.tip}</div>
+            <div class="section-title"><span style="background: var(--primary); width: 6px; height: 18px; border-radius: 3px; display: inline-block; margin-right: 8px;"></span>🤝 찰떡 소통 꿀팁</div>
+            <div class="tip-box" style="border-left-color: var(--primary); background-color: rgba(0,0,0,0.02);">${result.tip}</div>
           </div>
           
           <button class="btn btn-primary" style="margin-top: 32px;" onclick="this.closest('disc-app').reset()">테스트 다시하기</button>
