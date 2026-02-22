@@ -23,41 +23,91 @@ const DATA = {
   ],
   results: {
     D: {
-      title: "🔥 불도저 직진 리더",
-      summary: "\"답답한 건 못 참아! 내가 대장함.\"",
-      charm: "목표 잡히면 바로 풀악셀 밟는 추진력! 어떤 상황에서도 당황 안 하는 든든한 해결사 재질임.",
-      style: "빙빙 돌리는 거 딱 질색. 핵심만 팩트로 꽂아버리는 시원시원한 스타일.",
-      tip: "난 '효율'이 국룰이지만, 누군가는 '감정'이 우선임. 조언 전에 \"많이 속상했지?\" 한마디만 얹어도 티키타카 레벨업!"
+      title: "🔥 불도저 같은 추진력, 리더형",
+      summary: "\"답답한 건 못 참아! 내가 앞장설게.\"",
+      charm: "목표가 정해지면 망설임 없이 돌진하는 엄청난 추진력! 어려운 상황에서도 당황하지 않는 든든한 해결사 같은 매력이 있어요.",
+      style: "빙빙 돌려 말하는 걸 싫어하고, 핵심과 요점만 딱 떨어지게 말하는 깔끔한 대화 스타일!",
+      tip: "나는 '효율'이 중요하지만, 친구에겐 '감정'이 더 중요할 수 있어요. 조언하기 전에 \"많이 속상했겠다\"라는 공감 한마디를 먼저 건네보세요."
     },
     I: {
-      title: "✨ 인간 비타민 메이커",
-      summary: "\"노잼은 범죄임! 다 같이 텐션 올리자!\"",
-      charm: "처음 봐도 베프 먹는 미친 친화력! 리액션 혜자에 긍정 에너지 뿜뿜하는 우리 반 분위기 메이커.",
-      style: "감정 표현 풍부하고, 썰 풀기 시작하면 시간 순삭시키는 마법사 스타일.",
-      tip: "내 텐션에 취해서 친구 말 끊고 있진 않은지 체크! 진지한 고민 상담 때는 장난기 빼고 들어주는 게 진정한 갓생 리더임."
+      title: "✨ 통통 튀는 인간 비타민, 사교형",
+      summary: "\"재미없는 건 딱 질색! 다 같이 즐겁게 놀자!\"",
+      charm: "처음 보는 사람과도 금방 친해지는 미친 친화력! 리액션이 좋고 긍정적이어서 주변을 기분 좋게 만드는 분위기 메이커예요.",
+      style: "감정 표현이 풍부하고 재미있는 에피소드를 끊임없이 쏟아내는 매력적인 대화 스타일!",
+      tip: "내 이야기에 빠져서 가끔 친구의 말을 끊지는 않는지 체크! 친구가 진지한 고민을 말할 때는 장난기를 빼고 끝까지 들어주는 연습을 해보세요."
     },
     S: {
-      title: "🍀 힐링 마스코트",
-      summary: "\"네가 좋으면 나도 좋아. 우리 싸우지 말자.\"",
-      charm: "내 말 다 들어주는 최고의 리스너! 갈등 극혐하고 한 번 사귀면 우정 끝까지 책임지는 의리파.",
-      style: "내 주장 펼치기보다 상대방 의견에 공감하고 맞장구쳐주는 서포터 스타일.",
-      tip: "착한 사람 병은 이제 그만! \"난 이게 더 좋아\"라고 솔직하게 말해도 친구들은 널 여전히 아끼고 좋아함."
+      title: "🍀 따뜻한 힐링 마스코트, 안정형",
+      summary: "\"네가 좋으면 나도 좋아. 우리 사이좋게 지내자.\"",
+      charm: "친구의 이야기를 누구보다 진심으로 들어주는 최고의 리스너! 다투는 것을 싫어하고 한 번 사귄 친구와 깊고 오래가는 우정을 유지해요.",
+      style: "내 주장을 강하게 내세우기보다 상대방의 의견에 공감해 주고 맞장구를 잘 쳐주는 따뜻한 대화 스타일!",
+      tip: "착한 친구가 되어야 한다는 부담감은 내려놓으세요. \"나는 이게 더 좋은 것 같아\"라고 내 의견을 표현해도 친구들은 널 여전히 좋아할 거예요!"
     },
     C: {
-      title: "🔎 팩트폭격기 분석가",
-      summary: "\"대충은 없음. 한 번 할 때 제대로 갓생!\"",
-      charm: "결정할 때 뇌절 안 하는 스마트함! 맡은 일은 완벽하게 끝내는 책임감에 논리적인 조언까지 가능한 팩트 폭격기.",
-      style: "감정보다는 '사실'과 '논리'를 기반으로 정확하게 말하는 걸 선호함.",
-      tip: "내 팩트 체크가 가끔 친구한텐 '얼음'처럼 차가울 수 있음. 실수해도 \"그럴 수 있지~\"라며 가끔은 빈틈 보여주는 여유가 필요함."
+      title: "🔎 꼼꼼한 스마트 분석가, 신중형",
+      summary: "\"대충 하는 건 용납 못 해. 할 때 제대로!\"",
+      charm: "무언가를 결정할 때 대충 넘어가지 않는 스마트함! 맡은 일은 완벽하게 끝내는 책임감을 가졌으며 객관적이고 논리적인 조언자예요.",
+      style: "감정보다는 '사실'과 '논리'를 바탕으로 정확하고 꼼꼼하게 말하는 것을 선호하는 스타일!",
+      tip: "나의 팩트 체크가 친구에겐 '조금 차갑다'고 느껴질 수 있어요. 친구가 실수했을 때 \"그럴 수도 있지!\"라며 가끔은 빈틈을 보여주는 여유를 가져보세요."
     }
   }
 };
 
 const CHARACTERS = {
-  D: `<svg viewBox="0 0 100 100" class="char-svg"><circle cx="50" cy="50" r="45" fill="#afff00"/><rect x="20" y="30" width="60" height="15" rx="2" fill="black"/><path d="M30 45 L30 55 M70 45 L70 55" stroke="black" stroke-width="4"/><path d="M40 75 Q50 65 60 75" stroke="black" stroke-width="5" fill="none"/></svg>`,
-  I: `<svg viewBox="0 0 100 100" class="char-svg"><circle cx="50" cy="50" r="45" fill="#ff007a"/><path d="M25 40 L75 40 L70 25 L30 25 Z" fill="black"/><circle cx="35" cy="50" r="6" fill="white"/><circle cx="65" cy="50" r="6" fill="white"/><path d="M35 70 Q50 85 65 70" fill="white"/></svg>`,
-  S: `<svg viewBox="0 0 100 100" class="char-svg"><circle cx="50" cy="50" r="45" fill="#00e0ff"/><path d="M20 40 Q50 20 80 40" stroke="white" stroke-width="8" fill="none"/><circle cx="35" cy="50" r="4" fill="black"/><circle cx="65" cy="50" r="4" fill="black"/><path d="M35 70 Q50 80 65 70" stroke="black" stroke-width="4" fill="none"/></svg>`,
-  C: `<svg viewBox="0 0 100 100" class="char-svg"><circle cx="50" cy="50" r="45" fill="#ffffff"/><rect x="20" y="35" width="25" height="15" fill="none" stroke="black" stroke-width="3"/><rect x="55" y="35" width="25" height="15" fill="none" stroke="black" stroke-width="3"/><line x1="45" y1="42" x2="55" y2="42" stroke="black" stroke-width="3"/><path d="M40 75 L60 75" stroke="black" stroke-width="5"/></svg>`
+  D: `<svg viewBox="0 0 100 100" class="char-svg">
+    <defs>
+      <radialGradient id="gradD" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
+        <stop offset="0%" style="stop-color:#8e94f2" />
+        <stop offset="100%" style="stop-color:#5c67f2" />
+      </radialGradient>
+    </defs>
+    <circle cx="50" cy="50" r="45" fill="url(#gradD)"/>
+    <circle cx="35" cy="40" r="5" fill="white"/>
+    <circle cx="65" cy="40" r="5" fill="white"/>
+    <path d="M40 70 Q50 60 60 70" stroke="white" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <rect x="25" y="25" width="50" height="10" rx="5" fill="rgba(255,255,255,0.2)"/>
+  </svg>`,
+  I: `<svg viewBox="0 0 100 100" class="char-svg">
+    <defs>
+      <radialGradient id="gradI" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
+        <stop offset="0%" style="stop-color:#ff9e9e" />
+        <stop offset="100%" style="stop-color:#ff6b6b" />
+      </radialGradient>
+    </defs>
+    <circle cx="50" cy="50" r="45" fill="url(#gradI)"/>
+    <circle cx="35" cy="45" r="6" fill="white"/>
+    <circle cx="65" cy="45" r="6" fill="white"/>
+    <path d="M35 70 Q50 85 65 70" fill="white"/>
+    <path d="M45 20 L55 20 L60 10 L40 10 Z" fill="rgba(255,255,255,0.3)"/>
+  </svg>`,
+  S: `<svg viewBox="0 0 100 100" class="char-svg">
+    <defs>
+      <radialGradient id="gradS" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
+        <stop offset="0%" style="stop-color:#7df2eb" />
+        <stop offset="100%" style="stop-color:#4ecdc4" />
+      </radialGradient>
+    </defs>
+    <circle cx="50" cy="50" r="45" fill="url(#gradS)"/>
+    <circle cx="35" cy="50" r="4" fill="white"/>
+    <circle cx="65" cy="50" r="4" fill="white"/>
+    <path d="M35 70 Q50 80 65 70" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M30 30 Q50 15 70 30" stroke="rgba(255,255,255,0.4)" stroke-width="6" fill="none"/>
+  </svg>`,
+  C: `<svg viewBox="0 0 100 100" class="char-svg">
+    <defs>
+      <radialGradient id="gradC" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
+        <stop offset="0%" style="stop-color:#f8f9fa" />
+        <stop offset="100%" style="stop-color:#dee2e6" />
+      </radialGradient>
+    </defs>
+    <circle cx="50" cy="50" r="45" fill="url(#gradC)" stroke="#ced4da" stroke-width="2"/>
+    <rect x="25" y="40" width="20" height="15" rx="3" fill="none" stroke="#5c67f2" stroke-width="3"/>
+    <rect x="55" y="40" width="20" height="15" rx="3" fill="none" stroke="#5c67f2" stroke-width="3"/>
+    <line x1="45" y1="47" x2="55" y2="47" stroke="#5c67f2" stroke-width="3"/>
+    <circle cx="35" cy="47" r="2" fill="black"/>
+    <circle cx="65" cy="47" r="2" fill="black"/>
+    <path d="M40 75 L60 75" stroke="#5c67f2" stroke-width="4" stroke-linecap="round"/>
+  </svg>`
 };
 
 class DiscApp extends HTMLElement {
@@ -102,25 +152,25 @@ class DiscApp extends HTMLElement {
     if (this.state === 'HOME') {
       this.innerHTML = `
         <div class="screen home">
-          <h1>DISC<br>VIBE CHECK</h1>
-          <p class="hero-text">친구 사이 내 티키타카 스타일은?</p>
+          <h1>찰떡소통<br>DISC 검사</h1>
+          <p class="hero-text">친구 사이 내 소통 바이브는?</p>
           
-          <div class="why-section">
-            <b>왜 하냐고?</b><br>
-            친구랑 대화하다 갑자기 <b>'갑분싸'</b> 되거나 <b>'뇌절'</b>하기 싫지? 내 소통 바이브를 알아야 진정한 <b>'갓생'</b> 소통이 가능함. 너의 리듬을 체크해봐!
+          <div class="description-box">
+            <b>왜 하나요?</b><br>
+            친구랑 대화할 때 가끔 서운하거나 답답했던 적 있나요? 나의 <b>진짜 소통 스타일</b>을 알면 친구들과 훨씬 더 즐겁게 지낼 수 있어요. 20가지 질문으로 나의 바이브를 체크해보세요!
           </div>
 
           <div class="char-grid">
-            <div class="char-item">${CHARACTERS.D}<span>불도저</span></div>
-            <div class="char-item">${CHARACTERS.I}<span>비타민</span></div>
-            <div class="char-item">${CHARACTERS.S}<span>힐링</span></div>
-            <div class="char-item">${CHARACTERS.C}<span>팩트</span></div>
+            <div class="char-item">${CHARACTERS.D}<span>주도형</span></div>
+            <div class="char-item">${CHARACTERS.I}<span>사교형</span></div>
+            <div class="char-item">${CHARACTERS.S}<span>안정형</span></div>
+            <div class="char-item">${CHARACTERS.C}<span>신중형</span></div>
           </div>
 
-          <button class="btn btn-primary" onclick="this.closest('disc-app').setState('QUIZ')">바이브 체크 시작</button>
+          <button class="btn btn-primary" onclick="this.closest('disc-app').setState('QUIZ')">검사 시작하기</button>
           
           <div class="footer">
-            TRINITY AI FORUM // STREET EDITION
+            TRINITY AI FORUM // 3D ANIMATION EDITION
           </div>
         </div>
       `;
@@ -133,8 +183,8 @@ class DiscApp extends HTMLElement {
           <div class="progress-container">
             <div class="progress-bar" style="width: ${progress}%"></div>
           </div>
-          <p style="color: var(--secondary); font-family: 'Black Han Sans'; font-size: 1.2rem; margin-bottom: 8px;">STEP ${this.currentIndex + 1}</p>
-          <h2 style="font-size: 1.3rem; margin-bottom: 24px; color: #fff;">${q.q}</h2>
+          <p style="color: var(--primary); font-weight: 800; font-size: 1rem; margin-bottom: 8px;">질문 ${this.currentIndex + 1} / 20</p>
+          <h2 style="font-size: 1.3rem; margin-bottom: 32px; color: var(--text-main); line-height: 1.4;">${q.q}</h2>
           
           <div class="options">
             ${q.options.map((opt, i) => `
@@ -157,20 +207,20 @@ class DiscApp extends HTMLElement {
             
             <div class="result-summary">${result.summary}</div>
             
-            <div class="section-title">REAL 매력 (장점)</div>
+            <div class="section-title">나의 진짜 매력 (장점)</div>
             <p class="content-text">${result.charm}</p>
             
-            <div class="section-title">내 대화 스타일</div>
+            <div class="section-title">평소 내 대화 스타일</div>
             <p class="content-text">${result.style}</p>
             
-            <div class="section-title">🤝 티키타카 LEVEL UP</div>
+            <div class="section-title">🤝 찰떡 소통 꿀팁</div>
             <div class="tip-box">${result.tip}</div>
           </div>
           
-          <button class="btn btn-primary" style="margin-top: 32px;" onclick="this.closest('disc-app').reset()">다시 체크하기</button>
+          <button class="btn btn-primary" style="margin-top: 32px;" onclick="this.closest('disc-app').reset()">테스트 다시하기</button>
           
           <div class="footer">
-             TRINITY AI FORUM // STREET EDITION
+             TRINITY AI FORUM // 3D ANIMATION EDITION
           </div>
         </div>
       `;
